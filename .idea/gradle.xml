@@ -8,6 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/androidsample" />
             <option value="$PROJECT_DIR$/bitmapcropper" />
           </set>
         </option>

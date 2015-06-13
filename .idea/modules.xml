@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ImageCropper.iml" filepath="$PROJECT_DIR$/ImageCropper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidsample/androidsample.iml" filepath="$PROJECT_DIR$/androidsample/androidsample.iml" />
       <module fileurl="file://$PROJECT_DIR$/bitmapcropper/bitmapcropper.iml" filepath="$PROJECT_DIR$/bitmapcropper/bitmapcropper.iml" />
     </modules>
   </component>
