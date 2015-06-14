@@ -1,5 +1,6 @@
 package io.github.bitmapcropper;
 
+import android.graphics.Color;
 import android.media.FaceDetector;
 
 /**
@@ -13,6 +14,22 @@ public class Cropper {
 
         FaceDetector face = new FaceDetector(500, 500, 10);
 
+    }
+
+    /**
+     * Change a certain pixel to a new color
+     *
+     * @param pixel the image pixel array
+     * @param from the target pixel color
+     * @param to the substitute color
+     */
+    public static void changePixelColor(int[] pixel,int from, int to){
+        int pixelSize = pixel.length;
+        for(int x = 0 ; x < pixelSize ;x++){
+             if(pixel[x] == from){
+                pixel[x] = to;
+             }
+        }
     }
 
 }
